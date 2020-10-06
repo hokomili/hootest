@@ -1,0 +1,95 @@
+html {
+  height:100%;
+  --beige:#edf2c5;
+  background-color: var(--beige);
+}
+header{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content:space-between;
+}
+header div{
+  display:inline-block;
+}
+body {
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.container {
+  flex:1;
+  padding:36px 160px;
+}
+footer {
+  width:100%;
+  position : bottom;
+  padding:20px;
+  text-align: center;
+  background-color: #778a50;
+}
+ul {
+  height: 44px;
+  padding:0 ;
+  text-align: left;
+}
+li {
+  margin:10px 30px;
+  display: inline-block;
+}
+li p,h3{
+  height: 23px;
+  margin: 0;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 2.25;
+  text-align: left;
+  letter-spacing: normal;
+  color: var(--beige);
+}
+nav {
+  margin:5px 0px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #778a50;
+}
+.line_login {
+  width: 1px;
+  height: 25px;
+  background-color: #778a50;
+}
+.img_main_pumpkin {
+  margin:15px 0px;
+  height: 448px;
+  object-fit: contain;
+}
+.greenlabel{
+  width: 444px;
+  padding:0px 30px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+}
+#Vegetables {
+  margin:0;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 0.82;
+  text-align: left;
+  color: #778a50;
+}
+#btn_facebook{
+  margin:0px 5px;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+#btn_instagram {
+  margin:0px 5px;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
